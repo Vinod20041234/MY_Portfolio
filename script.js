@@ -1,10 +1,14 @@
 const output = document.getElementById("output");
 const commandInput = document.getElementById("command");
 
-const responses = {"resume": "Click here to download my resume: <a href='Vinod_Resume.pdf' download>Download Resume</a>",
-
-"download resume": "<a href='Vinod_Resume.pdf' download>Download Resume</a>"
+const responses = {
   help: `Commands:
+  resume: `
+<b>Resume</b><br>
+<a href="Vinod_Resume.pdf" download style="color:#38bdf8;">
+👉 Click here to download my resume
+</a>
+`,
  - about
 - education
 - skills
