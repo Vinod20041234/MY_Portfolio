@@ -3,7 +3,7 @@ const commandInput = document.getElementById("command");
 
 const responses = {
   help: `Commands:
-  "resume": "Click here to download my resume: <a href='Vinod_Resume.pdf' download>Download Resume</a>",
+  resume: "Click here to download my resume: <a href='Vinod_Resume.pdf' download>Download Resume</a>",
 
 "download resume": "<a href='Vinod_Resume.pdf' download>Download Resume</a>"
 - about
