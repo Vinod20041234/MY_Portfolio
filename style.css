@@ -1,0 +1,36 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.terminal {
+  background: #020617;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,255,255,0.2);
+}
+
+.header {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.input-line {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  color: #e5e7eb;
+  outline: none;
+  width: 100%;
+}
